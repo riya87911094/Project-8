@@ -127,8 +127,7 @@ class Student:
         Student_table.column("address",width=150)
         Student_table.pack(fill=BOTH,expand=1)
 
-    def add_students(self):
-        con=pymysql.connect(host="localhost",user="riya",password="test123",database="stm")
+   
 
 
 root = Tk()
